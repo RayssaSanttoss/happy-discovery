@@ -1,0 +1,23 @@
+/* O que é uma regra CSS? */
+* { 
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    color: white;
+}
+
+:root {
+    /*essa tag está sendo utilizada para definir o tamanho da fonte da tag html (tag pai). O padrão html é a fonte valer 16px, sendo assim, 62,5% equivale a 10px. Essa definição é necessária para a utilização de rem*/
+    font-size: 62.5%;
+}
+
+body, input, button, textarea {
+    /*font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif; é a mesma coisa que:*/
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
+
